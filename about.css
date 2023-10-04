@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/*section 01 */
+
+nav{
+    position: fixed;
+    background: white;
+    height: 80px;
+    width: 100%;
+
+}
+label.logo{
+    color: darkorange;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+nav ul li a.join{
+    border: none;
+    padding: 10px;
+    background: darkgray;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    color: darkorange;
+   border-radius: 5px;
+}
+.checkbtn{
+    float: left;
+    color: black;
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+/*section 01 end */
+
+/*section 06*/
+.sec6{
+    height: 100vh;
+    background-image: url(images/bc8.jpeg);
+    background-size: cover;
+   background-attachment: fixed;
+
+   text-align: center;
+   
+   color: azure;
+
+}
+.sec6 h1{
+   padding-top: 100px;
+   font-size: 40px;
+}
+.sec6 p{
+    padding-top: 20px;
+}
+
+.sec6 .griid{
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+    
+}
+
+.item{
+    border: none;
+    background: rgb(121, 125, 126);
+    border-radius: 20px;
+    height: 200px;
+}  
+.item img{
+    width: 50px;
+    height: 60px;
+    padding-top: 10px;
+    border-radius: 15px;
+   
+}  
+.item .checked{
+    color: darkorange;
+}
+
+/*section 06 end */
+
+/*section 07 */
+.sec7{
+     width: 100%;
+    height: 700px;
+    background: black;
+    text-align: center;
+    color: gray;
+}
+
+
+
+.sec7{
+    padding-top: 100px;
+}
+.sec7 .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr ;
+    grid-column-gap: 2px;
+    grid-template-areas: 
+"a a a a"
+"b c d e"
+"f f f f";
+    
+   
+}
+.num{
+   
+    padding: 20px;
+    border: none;
+    height: 200px;
+}
+.r1{
+    grid-area: a;
+}
+.r2{
+    grid-area: b;
+}
+.r3{
+    grid-area: c;
+
+}
+.r4{
+    grid-area: d;
+}
+.r5{
+    grid-area: e;
+}
+.r6{
+    grid-area: f;
+    padding-top: 160px;
+}
+.r1 .social-link{
+    padding-top: 50px;
+
+}
+.r1 .social-link a{
+    color: gray;
+}
+i{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    font-size: 50px;
+    
+}
+.r3 ul {
+    list-style: none;
+}
+.r3 ul li a{
+    text-decoration: none;
+    color: gray;
+
+}
+.math {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+     border: 1px solid red;
+}
+.math .itm{
+    grid-column-gap:10px ;
+   
+}
+/* section 07 end */
+/*section 02 */
+
+.sec2 {
+    height: 100vh;
+   background: darkgrey;
+    background-size: cover;
+   
+
+
+   
+   padding-top: 200px;
+   color: azure;
+   
+    
+    
+}
+
+.sec2 img{
+    float: left;
+    width: 600px;
+    height: 500px;
+    margin-left: 10px;
+    
+}
+.tec h2 p button{
+    float: right;
+    display: block;
+    
+    
+}
+.tec h2{
+    text-align: center;
+    color: darkorange;
+    font-size: 40px;
+
+}
+.tec p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+   
+  
+}
+.tec button{
+    padding: 10px;
+   margin-top: 20px;
+   margin-left: 350px;
+   padding: 10px;
+  
+}
+
+
+/*section 02 end */
+.sec3 {
+    height: 30vh;
+   background: rgb(27, 25, 25);
+   background-size: cover;
+   padding-top: 50px;
+   color: azure;
+  
+   
+    
+    
+}
+ .sec3 .con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 70px;
+
+}
+.itm{
+
+   
+    width: 300px;
+   
+   
+    
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+.sec3 p{
+    text-align: center;
+    font-size: 30px;
+}
